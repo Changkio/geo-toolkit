@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "point_a"},
+      "geometry": {"type": "Point", "coordinates": [113.52, 22.27]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "sample_line"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [113.52, 22.27],
+          [113.55, 22.3],
+          [113.58, 22.33]
+        ]
+      }
+    }
+  ]
+}
