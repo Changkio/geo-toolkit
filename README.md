@@ -1,6 +1,6 @@
 # geo-toolkit：地理数据与路径算法学习演示
 
-本项目用于学习 Python 地理数据处理、图算法、缓存与 HTTP 接口的基本结构。初稿由 AI 生成，随后经 AI 辅助审查、修复和回归测试整理。代码为独立学习示例，不包含“美颜世界／菠萝笔”等商业项目的原始源码。
+本项目提供 Python 地理数据处理、图算法、缓存与 HTTP 接口示例，用于学习这些模块的基本结构。代码为独立学习示例，不包含“美颜世界／菠萝笔”等商业项目的原始源码。
 
 ## 实现的功能
 
@@ -44,7 +44,7 @@ python3 -m venv .venv
 .\.venv\Scripts\python.exe -m pytest -q
 ```
 
-未安装 GeoPandas 时，文件转换测试会跳过。原有标准库测试也可单独执行：python tests/test_coord.py 和 python tests/test_pathfinding.py。
+未安装 GeoPandas 时，文件转换测试会跳过。标准库测试也可单独执行：python tests/test_coord.py 和 python tests/test_pathfinding.py。
 
 ## Python 示例
 
@@ -111,7 +111,7 @@ print(cache.get("example"))
 
 - geotk/：核心算法与可选文件转换
 - api/：FastAPI 应用
-- tests/：原始基础测试与新增回归测试
+- tests/：基础测试与回归测试
 - examples/sample.geojson：示例输入
 - requirements.txt：服务依赖
 - requirements-dev.txt：测试依赖
